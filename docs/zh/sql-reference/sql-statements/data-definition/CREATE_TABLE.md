@@ -93,7 +93,7 @@ col_name col_type [agg_type] [NULL | NOT NULL] [DEFAULT "default_value"] [AUTO_I
 
   变长字符串。单位：字节，默认取值为 `1`。
   * StarRocks 2.1.0 之前的版本，`length` 的取值范围为 1~65533。
-  * 【公测中】自 StarRocks 2.1.0 版本开始，`length` 的取值范围为 1~1048576。
+  * 自 StarRocks 2.1.0 版本开始，`length` 的取值范围为 1~1048576。
 
 * HLL (1~16385个字节)
 
